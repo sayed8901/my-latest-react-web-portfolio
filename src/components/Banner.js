@@ -20,7 +20,7 @@ import { fadeIn } from "../variants";
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] md:min-h-[75vh] flex items-center"
+      className="min-h-[85vh] md:min-h-[75vh] flex items-center mb-32"
       id="home"
     >
       <div className="container mx-auto">
@@ -42,7 +42,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[30px] md:text-[35px] xl:text-[65px] font-secondary font-semibold uppercase leading-[2]"
+              className="mb-6 text-[30px] md:text-[35px] xl:text-[60px] font-secondary font-semibold uppercase leading-[2]"
             >
               <span className="text-white mr-2">I am a </span>
               <TypeAnimation
