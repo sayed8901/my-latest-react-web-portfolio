@@ -14,6 +14,7 @@ const Nav = () => {
         <div className="w-full bg-black/20 h-[72px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
           <Link
             to="home"
+            title="Home"
             activeClass="active"
             smooth={true}
             spy={true}
@@ -25,6 +26,7 @@ const Nav = () => {
           </Link>
           <Link
             to="about"
+            title="About me"
             activeClass="active"
             smooth={true}
             spy={true}
@@ -33,7 +35,8 @@ const Nav = () => {
             <BiUser />
           </Link>
           <Link
-            to="services"
+            to="skills"
+            title="Skills"
             activeClass="active"
             smooth={true}
             spy={true}
@@ -42,7 +45,8 @@ const Nav = () => {
             <BsClipboardData />
           </Link>
           <Link
-            to="work"
+            to="projects"
+            title="My Projects"
             activeClass="active"
             smooth={true}
             spy={true}
@@ -52,6 +56,7 @@ const Nav = () => {
           </Link>
           <Link
             to="contact"
+            title="Contact Me"
             activeClass="active"
             smooth={true}
             spy={true}

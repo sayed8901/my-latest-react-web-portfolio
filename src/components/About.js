@@ -47,10 +47,10 @@ const About = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="flex-1"
           >
-            <h2 className="h2 text-accent">About me</h2>
-            <h3 className="h3 mb-4">
-              I have completed more than 20 projects.
-            </h3>
+            <h2 className="h2 text-accent">
+              <span className="text-gradient">About</span> me
+            </h2>
+            <h3 className="h3 mb-4">I have completed more than 20 projects.</h3>
             <p className="mb-6">
               Among them, I have made some e-commerce sites, a job portal, a
               newspaper site, some portfolio sites, and many more.
@@ -68,7 +68,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-secondary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={50} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={50} duration={4} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Tasks <br /> Done
@@ -76,7 +76,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-secondary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={12} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={12} duration={5} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Assignments <br /> Submitted
