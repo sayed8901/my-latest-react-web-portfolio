@@ -10,7 +10,7 @@ import { fadeIn } from "../variants";
 import Img1 from "../assets/Project-1-Summer-Champ.jpg";
 import Img2 from "../assets/Project-2-ToyDoll-FairyWorld.jpg";
 import Img3 from "../assets/Project-3-My-AirCNC.jpg";
-import { Link } from "react-scroll";
+
 
 const Projects = () => {
   return (
@@ -34,7 +34,7 @@ const Projects = () => {
               </p>
               <button className="btn btn-sm">View all projects</button>
             </motion.div>
-
+            
             {/* project 1 */}
             <motion.div
               variants={fadeIn("left", 0.3)}
@@ -63,7 +63,7 @@ const Projects = () => {
                     <span className="text-xl text-white">A summer time school sports camping site.</span>
                   </div>
                 </div>
-                 <Link to={'./ProjectDetails/Project1.jsx'} className="absolute -bottom-full right-12 group-hover:bottom-4 transition-all duration-700 z-50 btn btn-sm">View Details</Link>
+                 <button className="absolute -bottom-full right-12 group-hover:bottom-4 transition-all duration-700 z-50 btn btn-sm">View Details</button>
               </div>
             </motion.div>
 

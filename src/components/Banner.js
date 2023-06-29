@@ -60,9 +60,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto md:mx-0"
             >
-              Hello! This is Sayed from Narayanganj, Bangladesh. 
+              Hello! I am Sayed from Narayanganj, Bangladesh. 
               <br />I have a deep passion in the web development. It gives me
-              much excitement & also allows me to apply my creativity throughout
+              much thrill & also allows me to apply my creativity throughout
               my work.
             </motion.p>
             <motion.div
